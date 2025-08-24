@@ -133,7 +133,7 @@ export default function ClubsRanking() {
                 <td className="px-2 py-2">
                   <div className="flex items-center gap-3">
                     <span className="w-5 text-sm text-gray-500">{c.pos}</span>
-                    <img
+                    <img loading="lazy"
                       src={c.logo}
                       alt={c.name}
                       className="h-6 w-6 rounded-full object-contain bg-white ring-1 ring-gray-200"

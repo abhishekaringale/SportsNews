@@ -75,7 +75,7 @@ function Categories() {
             className={`overflow-hidden rounded-2xl ${layout[i]}`}
           >
             {c.type === 'image' ? (
-              <img
+              <img loading="lazy"
                 src={c.img}
                 alt={c.title}
                 className="h-full w-full object-cover"

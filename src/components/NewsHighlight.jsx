@@ -42,7 +42,7 @@ function NewsHighlight() {
           whileHover={{ scale: 1.01}}
           className="relative aspect-[1168/818] sm:aspect-[1168/518] w-full cursor-pointer"
         >
-          <img
+          <img loading="lazy"
             src={newsImg}
             alt="News"
             className="absolute inset-0 w-full h-full object-cover"

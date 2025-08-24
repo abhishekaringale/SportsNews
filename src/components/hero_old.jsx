@@ -10,7 +10,7 @@ function Hero() {
       <div className="flex flex-col w-3/4 relative">
         <div className="flex flex-col md:flex-row lg:flex-row  items-center">
           {/* Faint Basketball Background */}
-          <img
+          <img loading="lazy"
             src={basketballBg}
             alt="Basketball Background"
             className="absolute -top-16 left-0 w-[550px] filter grayscale object-cover opacity-15"
@@ -26,7 +26,7 @@ function Hero() {
         </div>
         {/* Hero Image */}
         <div className="flex-shrink-0 absolute top-9 right-5">
-          <img
+          <img loading="lazy"
             src={player}
             alt="Basketball Player"
             className="filter grayscale w-[800px]"
@@ -51,7 +51,7 @@ function Hero() {
 
         {/* Card 1 */}
         <div className="relative flex flex-col shadow-md rounded-xl overflow-hidden w-[80%] bg-gradient-to-b from-black to-white">
-          <img src={beautifulWomen} alt="Runner" className="object-cover" />
+          <img loading="lazy" src={beautifulWomen} alt="Runner" className="object-cover" />
           <div className="p-3 text-sm">
             <p className="font-semibold">Race98 - 03 June 2023</p>
             <p>Ethiopian runners took the top four spots.</p>
@@ -61,7 +61,7 @@ function Hero() {
         {/* Card 2 */}
         <div className="relative flex flex-col shadow-md rounded-xl overflow-hidden w-[80%] bg-gradient-to-b from-black to-white">
           <div>
-            <img
+            <img loading="lazy"
               src={raceCar}
               alt="Race Car"
               className="object-cover filter grayscale"

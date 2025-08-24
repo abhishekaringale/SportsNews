@@ -10,7 +10,7 @@ function Hero() {
         {/* Left (Text + Player) */}
         <div className="relative flex sm:flex-col md:flex-row items-center  gap-8 ml-5 2xl:ml-0">
           {/* Background basketball */}
-          <img
+          <img loading="lazy"
             src={basketballBg}
             alt="Basketball Background"
             className="absolute top-0 left-0 w-[300px] sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[700px] opacity-15 grayscale "
@@ -39,7 +39,7 @@ function Hero() {
           {/* Player Image */}
           <div className="flex-1 flex justify-center lg:justify-end ">
             <div className="w-[250px] sm:w-[400px] lg:w-[600px] xl:w-[700px] aspect-[3/4]">
-              <img
+              <img loading="lazy"
                 src={player}
                 alt="Basketball Player"
                 className="md:w-full  aspect-[3/4] object-contain grayscale"
@@ -57,7 +57,7 @@ function Hero() {
             {/* Card 1 */}
             <div className="rounded-xl overflow-hidden shadow-md bg-white">
               <div className="aspect-[4/3] w-full">
-                <img
+                <img loading="lazy"
                   src={beautifulWomen}
                   alt="Runner"
                   className="w-full h-full object-cover"
@@ -72,7 +72,7 @@ function Hero() {
             {/* Card 2 */}
             <div className="rounded-xl overflow-hidden shadow-md bg-white">
               <div className="aspect-[4/3] w-full">
-                <img
+                <img loading="lazy"
                   src={raceCar}
                   alt="Race Car"
                   className="w-full h-full object-cover"

@@ -8,7 +8,7 @@ function SportsArticleCard({ article }) {
       transition={{ type: 'spring', stiffness: 300 }}
     >
       <div className="relative aspect-[16/9] lg:aspect-[4/3] 2xl:aspect-[21/12] w-full">
-        <img
+        <img loading="lazy"
           src={article.img}
           alt={article.title}
           className="h-full w-full object-cover"
@@ -20,7 +20,7 @@ function SportsArticleCard({ article }) {
 
       <div className="p-5">
         <div className="flex items-center gap-3 mb-3">
-          <img
+          <img loading="lazy"
             src={article.author.avatar}
             alt={article.author.name}
             className="h-10 w-10 rounded-full object-cover"

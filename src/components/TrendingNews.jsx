@@ -89,7 +89,7 @@ function TrendingNews() {
                 transition={{ type: 'spring', stiffness: 300 }}
                 className="flex gap-4 cursor-pointer sm:flex-row flex-col"
               >
-                <img
+                <img loading="lazy"
                   src={a.img}
                   alt={a.title}
                   className="h-36 w-60 object-cover rounded-lg flex-shrink-0"
@@ -121,7 +121,7 @@ function TrendingNews() {
           transition={{ type: 'spring', stiffness: 200 }}
           className="flex-1 relative rounded-2xl overflow-hidden cursor-pointer"
         >
-          <img
+          <img loading="lazy"
             src={exercise}
             alt="Cycling"
             className="h-full w-full object-cover aspect-[1168/818] sm:aspect-[1168/518]"

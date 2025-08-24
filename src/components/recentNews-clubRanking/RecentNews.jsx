@@ -39,7 +39,7 @@ function RecentNews() {
           variants={fromRight}
           className="cursor-pointer relative overflow-hidden rounded-2xl w-full md:w-1/2 h-64 md:h-auto bg-gradient-to-t from-black/60 to-orange-300 hover:scale-[1.03] transition-all"
         >
-          <img
+          <img loading="lazy"
             src={karate}
             alt="Baku 2023 World Taekwondo Championships"
             className="absolute inset-0 h-full w-full object-cover"
@@ -63,7 +63,7 @@ function RecentNews() {
               variants={fromRight}
               className="flex items-start gap-3 cursor-pointer hover:scale-[1.02] transition-all"
             >
-              <img
+              <img loading="lazy"
                 src={boxing}
                 alt="Baku 2023 Taekwondo"
                 className="h-14 w-14 rounded-lg object-cover"
@@ -81,7 +81,7 @@ function RecentNews() {
               variants={fromRight}
               className="flex items-start gap-3 cursor-pointer hover:scale-[1.02] transition-all"
             >
-              <img
+              <img loading="lazy"
                 src={golfball}
                 alt="Open Championship Golf"
                 className="h-14 w-14 rounded-lg object-cover"
@@ -99,7 +99,7 @@ function RecentNews() {
               variants={fromRight}
               className="flex items-start gap-3 cursor-pointer hover:scale-[1.02] transition-all"
             >
-              <img
+              <img loading="lazy"
                 src={cricket}
                 alt="Ireland Tour of England"
                 className="h-14 w-14 rounded-lg object-cover"

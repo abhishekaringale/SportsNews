@@ -23,7 +23,7 @@ function Newsletter() {
         </div>
 
         <div className="flex-1 flex items-start justify-center p-6 h-64 md:h-80 lg:h-96">
-          <img
+          <img loading="lazy"
             src={player}
             alt="Football Player"
             className="object-cover object-top w-1/2"

@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
-import player from "../assets/home/basketball-player.png";
-import basketballBg from "../assets/home/basketball-transparent.jpg";
-import beautifulWomen from "../assets/home/beautiful-women.jpg";
-import raceCar from "../assets/home/fast-race-car.jpg";
+import { motion } from 'framer-motion';
+import player from '../assets/home/basketball-player.png';
+import basketballBg from '../assets/home/basketball-transparent.jpg';
+import beautifulWomen from '../assets/home/beautiful-women.jpg';
+import raceCar from '../assets/home/fast-race-car.jpg';
 
 const container = {
   hidden: {},
@@ -13,27 +13,43 @@ const container = {
 
 const lineVariant = {
   hidden: { opacity: 0, x: -80 },
-  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut" } },
+  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: 'easeOut' } },
 };
 
 const textBlock = {
   hidden: { opacity: 0, x: -100 },
-  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut", delay: 1.2 } },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.7, ease: 'easeOut', delay: 1.2 },
+  },
 };
 
 const playerVariant = {
   hidden: { opacity: 0, scale: 0.8, rotate: -10 },
-  show: { opacity: 1, scale: 1, rotate: 0, transition: { duration: 1, ease: "easeOut", delay: 1.5 } },
+  show: {
+    opacity: 1,
+    scale: 1,
+    rotate: 0,
+    transition: { duration: 1, ease: 'easeOut', delay: 1.5 },
+  },
 };
 
 const asideVariant = {
   hidden: { opacity: 0, x: 80 },
-  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut", staggerChildren: 0.2 } },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.7, ease: 'easeOut', staggerChildren: 0.2 },
+  },
 };
 
 function Hero() {
   return (
-    <section id="home" className="relative bg-gray-100 bg-gradient-to-b from-gray-100 to-white overflow-hidden scroll-mt-14">
+    <section
+      id="home"
+      className="relative bg-gray-100 bg-gradient-to-b from-gray-100 to-white overflow-hidden scroll-mt-14"
+    >
       <div className="mx-auto max-w-[1600px] grid grid-cols-1 2xl:grid-cols-[2fr_1fr] gap-10 px-6 pb-12">
         <div className="relative flex sm:flex-col md:flex-row items-center gap-8 ml-5 2xl:ml-0">
           <img
@@ -50,7 +66,7 @@ function Hero() {
               viewport={{ once: true, amount: 0.3 }}
               className="space-y-2 md:ml-32 xl:ml-40 2xl:ml-0"
             >
-              {["TOP", "SCORER TO", "THE FINAL", "MATCH"].map((line, i) => (
+              {['TOP', 'SCORER TO', 'THE FINAL', 'MATCH'].map((line, i) => (
                 <motion.h1
                   key={i}
                   variants={lineVariant}
@@ -106,9 +122,16 @@ function Hero() {
             Today
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-1 gap-5">
-            <motion.div variants={asideVariant} className="rounded-xl overflow-hidden shadow-md bg-white">
+            <motion.div
+              variants={asideVariant}
+              className="rounded-xl overflow-hidden shadow-md bg-white"
+            >
               <div className="aspect-[4/3] w-full">
-                <img src={beautifulWomen} alt="Runner" className="w-full h-full object-cover" />
+                <img
+                  src={beautifulWomen}
+                  alt="Runner"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-4 text-sm">
                 <p className="font-semibold">Race98 – 03 June 2023</p>
@@ -116,9 +139,16 @@ function Hero() {
               </div>
             </motion.div>
 
-            <motion.div variants={asideVariant} className="rounded-xl overflow-hidden shadow-md bg-white">
+            <motion.div
+              variants={asideVariant}
+              className="rounded-xl overflow-hidden shadow-md bg-white"
+            >
               <div className="aspect-[4/3] w-full">
-                <img src={raceCar} alt="Race Car" className="w-full h-full object-cover filter grayscale" />
+                <img
+                  src={raceCar}
+                  alt="Race Car"
+                  className="w-full h-full object-cover filter grayscale"
+                />
               </div>
               <div className="p-4 text-sm">
                 <p className="font-semibold">INDYCAR – 03 June 2023</p>
