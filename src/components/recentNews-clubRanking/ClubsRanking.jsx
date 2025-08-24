@@ -106,7 +106,7 @@ export default function ClubsRanking() {
         Clubs Ranking
       </motion.h2>
 
-      <div className="overflow-hidden rounded-2xl bg-gray-100">
+      <div className="overflow-x-auto rounded-2xl bg-gray-100">
         <motion.table
           className="w-full text-left"
           variants={container}
