@@ -1,8 +1,8 @@
 import React from 'react';
-import horse from '../assets/trending-horse.jpg';
-import cycling from '../assets/trending-cycling.jpg';
-import boxing from '../assets/trending-boxingarena.jpg';
-import exercise from '../assets/trending-exercise.jpg';
+import horse from '../assets/trending/trending-horse.jpg';
+import cycling from '../assets/trending/trending-cycling.jpg';
+import boxing from '../assets/trending/trending-boxingarena.jpg';
+import exercise from '../assets/trending/trending-exercise.jpg';
 import { motion } from 'framer-motion';
 
 const articles = [

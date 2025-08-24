@@ -1,8 +1,8 @@
 import React from 'react';
-import football from '../assets/category-football.jpg';
-import basketball from '../assets/category-basketball.jpg';
-import car from '../assets/category-car.jpg';
-import tableTennis from '../assets/category-table-tennis.jpg';
+import football from '../assets/category/category-football.jpg';
+import basketball from '../assets/category/category-basketball.jpg';
+import car from '../assets/category/category-car.jpg';
+import tableTennis from '../assets/category/category-table-tennis.jpg';
 import { motion } from 'framer-motion';
 
 const categories = [

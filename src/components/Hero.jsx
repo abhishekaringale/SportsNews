@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import player from "../assets/basketball-player.png";
-import basketballBg from "../assets/basketball-transparent.jpg";
-import beautifulWomen from "../assets/beautiful-women.jpg";
-import raceCar from "../assets/fast-race-car.jpg";
+import player from "../assets/home/basketball-player.png";
+import basketballBg from "../assets/home/basketball-transparent.jpg";
+import beautifulWomen from "../assets/home/beautiful-women.jpg";
+import raceCar from "../assets/home/fast-race-car.jpg";
 
 const container = {
   hidden: {},
@@ -118,7 +118,7 @@ function Hero() {
 
             <motion.div variants={asideVariant} className="rounded-xl overflow-hidden shadow-md bg-white">
               <div className="aspect-[4/3] w-full">
-                <img src={raceCar} alt="Race Car" className="w-full h-full object-cover" />
+                <img src={raceCar} alt="Race Car" className="w-full h-full object-cover filter grayscale" />
               </div>
               <div className="p-4 text-sm">
                 <p className="font-semibold">INDYCAR – 03 June 2023</p>
