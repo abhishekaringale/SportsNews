@@ -1,9 +1,9 @@
-import mci from '../../assets/recentNews/manchester-city.png';
-import liv from '../../assets/recentNews/liverpool.png';
-import che from '../../assets/recentNews/chelsea.png';
-import tot from '../../assets/recentNews/tottenhum.png';
-import ars from '../../assets/recentNews/arsenal.png';
-import mun from '../../assets/recentNews/manchester-united.png';
+import mci from '../../../public/club-rankings/manchester-city.png';
+import liv from '../../../public/club-rankings/liverpool.png';
+import che from '../../../public/club-rankings/chelsea.png';
+import tot from '../../../public/club-rankings/tottenhum.png';
+import ars from '../../../public/club-rankings/arsenal.png';
+import mun from '../../../public/club-rankings/manchester-united.png';
 import { motion } from 'framer-motion';
 
 const clubs = [

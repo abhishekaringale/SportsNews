@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
-import player from '../assets/home/basketball-player.png';
-import basketballBg from '../assets/home/basketball-transparent.jpg';
-import beautifulWomen from '../assets/home/beautiful-women.jpg';
-import raceCar from '../assets/home/fast-race-car.jpg';
+// import player from '../assets/home/basketball-player.png';
+import player from '../../public/home/basketball-player.png';
+import basketballBg from '../../public/home/basketball-transparent.jpg';
+import beautifulWomen from '../../public/home/beautiful-women.jpg';
+import raceCar from '../../public/home/fast-race-car.jpg';
 
 const container = {
   hidden: {},

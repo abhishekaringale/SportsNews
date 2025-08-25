@@ -1,9 +1,9 @@
-import basketballImg from '../../assets/sport-articles/basketball-shoes.jpg';
-import hockeyImg from '../../assets/sport-articles/ice-hocky.jpg';
-import badmintonImg from '../../assets/sport-articles/shuttlecocks.jpg';
-import author1 from '../../assets/sport-articles/article-writer-1.png';
-import author2 from '../../assets/sport-articles/article-writer-2.png';
-import author3 from '../../assets/sport-articles/article-writer-3.png';
+import basketballImg from '../../../public/sport-articles/basketball-shoes.jpg';
+import hockeyImg from '../../../public/sport-articles/ice-hocky.jpg';
+import badmintonImg from '../../../public/sport-articles/shuttlecocks.jpg';
+import author1 from '../../../public/sport-articles/article-writer-1.png';
+import author2 from '../../../public/sport-articles/article-writer-2.png';
+import author3 from '../../../public/sport-articles/article-writer-3.png';
 import SportsArticleCard from './SportsArticleCard';
 import { motion } from 'framer-motion';
 

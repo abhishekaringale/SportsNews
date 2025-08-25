@@ -1,7 +1,7 @@
-import golfball from '../../assets/club-rankings/golf-ball.png';
-import boxing from '../../assets/club-rankings/boxing.png';
-import cricket from '../../assets/club-rankings/cricket-ball.png';
-import karate from '../../assets/club-rankings/karate.jpg';
+import golfball from '../../../public/recentNews/golf-ball.png';
+import boxing from '../../../public/recentNews/boxing.png';
+import cricket from '../../../public/recentNews/cricket-ball.png';
+import karate from '../../../public/recentNews/karate.jpg';
 import { motion } from 'framer-motion';
 
 const container = {
