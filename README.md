@@ -7,7 +7,7 @@ It showcases a **hero section, categories grid, trending news, recent news + clu
 
 ## 🔗 Live Demo
 
-Check out the live app here: [SportsNews](https://sports-news-8m22.onrender.com/#clubsRanking)
+Check out the live app here: [SportsNews](https://sports-news-8m22.onrender.com)
 
 ## 🚀 Features
 
