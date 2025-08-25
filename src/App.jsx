@@ -6,7 +6,7 @@ import TrendingNews from './components/TrendingNews';
 import NewsHighlight from './components/NewsHighlight';
 import News_Rank from './components/recentNews-clubRanking/News_Rank';
 import SportsArticles from './components/sport-article/SportsArticles';
-import Newsletter from './components/Newsletter';
+import Newsletter from './components/NewsLetter';
 
 function App() {
 
