@@ -1,4 +1,4 @@
-import player from '../../public/subscription/football-player.png';
+import player from '../../public/subscription/football-player.webp';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import { motion } from 'framer-motion';
 

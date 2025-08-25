@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import newsImg from '../../public/handshake.jpg';
+import newsImg from '../../public/handshake.webp';
 
 const container = {
   hidden: {},

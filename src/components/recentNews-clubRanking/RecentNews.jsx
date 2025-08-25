@@ -1,7 +1,7 @@
 import golfball from '../../../public/recentNews/golf-ball.png';
 import boxing from '../../../public/recentNews/boxing.png';
 import cricket from '../../../public/recentNews/cricket-ball.png';
-import karate from '../../../public/recentNews/karate.jpg';
+import karate from '../../../public/recentNews/karate.webp';
 import { motion } from 'framer-motion';
 
 const container = {

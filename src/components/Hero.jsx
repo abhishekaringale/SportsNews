@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 // import player from '../assets/home/basketball-player.png';
-import player from '../../public/home/basketball-player.png';
+import player from '../../public/home/basketball-player.webp';
 import basketballBg from '../../public/home/basketball-transparent.jpg';
-import beautifulWomen from '../../public/home/beautiful-women.jpg';
-import raceCar from '../../public/home/fast-race-car.jpg';
+import beautifulWomen from '../../public/home/beautiful-women.webp';
+import raceCar from '../../public/home/fast-race-car.webp';
 
 const container = {
   hidden: {},

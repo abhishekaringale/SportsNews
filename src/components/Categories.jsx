@@ -1,8 +1,8 @@
 import React from 'react';
-import football from '../../public/category/category-football.jpg';
-import basketball from '../../public/category/category-basketball.jpg';
-import car from '../../public/category/category-car.jpg';
-import tableTennis from '../../public/category/category-table-tennis.jpg';
+import football from '../../public/category/category-football.webp';
+import basketball from '../../public/category/category-basketball.webp';
+import car from '../../public/category/category-car.webp';
+import tableTennis from '../../public/category/category-table-tennis.webp';
 import { motion } from 'framer-motion';
 
 const categories = [
